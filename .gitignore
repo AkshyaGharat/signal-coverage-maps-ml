@@ -1,0 +1,21 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+*.mex*
+*.pdb
+*.obj
+
+# Simulink
+slprj/
+*.slxc
+*.sldd.bak
+
+# MATLAB generated files
+codegen/
+*.mlproj
+*.mlappinstall
+
+# OS files
+.DS_Store
+Thumbs.db
