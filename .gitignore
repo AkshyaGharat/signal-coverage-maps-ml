@@ -1,4 +1,4 @@
-# MATLAB
+# MATLAB temporary and working files
 *.asv
 *.autosave
 *.m~
@@ -6,16 +6,32 @@
 *.pdb
 *.obj
 
-# Simulink
+# Simulink build artifacts
 slprj/
 *.slxc
 *.sldd.bak
 
-# MATLAB generated files
+# MATLAB generated project files
 codegen/
 *.mlproj
 *.mlappinstall
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# VS Code settings / workspace cache
+.vscode/
+
+# Log files & temporary execution outputs
+*.log
+
+# Raw dataset files (Must NOT be committed to git repository)
+data/raw/
+data/processed/
+
+# Import scratch directories and large archives
+import/
+*.zip
+*.tar.gz
