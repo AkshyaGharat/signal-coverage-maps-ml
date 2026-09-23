@@ -1,0 +1,125 @@
+{
+  "benchmarks": {
+    "random_10": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 16.380481678819095,
+      "SASR_Additive_Raw": 15.90662711811436,
+      "P1_LDPL_Isotropic_Residual": 8.140221599459093,
+      "P2_LDPL_SASR_Additive_Residual": 7.865562100113469,
+      "Weak_Isotropic": 21.65792864745673,
+      "Weak_SASR_Additive": 21.21666231019148
+    },
+    "random_5": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 15.288335633227602,
+      "SASR_Additive_Raw": 15.615044280267485,
+      "P1_LDPL_Isotropic_Residual": 7.327922258161405,
+      "P2_LDPL_SASR_Additive_Residual": 7.399757057929114,
+      "Weak_Isotropic": 17.063590704819724,
+      "Weak_SASR_Additive": 19.39683058478124
+    },
+    "random_2": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 16.403701722823037,
+      "SASR_Additive_Raw": 16.40344925134917,
+      "P1_LDPL_Isotropic_Residual": 8.016710431725548,
+      "P2_LDPL_SASR_Additive_Residual": 7.843332222078844,
+      "Weak_Isotropic": 20.023122475837223,
+      "Weak_SASR_Additive": 20.8418875574467
+    },
+    "random_1": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 16.154926776817902,
+      "SASR_Additive_Raw": 15.994869492929187,
+      "P1_LDPL_Isotropic_Residual": 7.737264051227031,
+      "P2_LDPL_SASR_Additive_Residual": 7.536069869554977,
+      "Weak_Isotropic": 16.937374187085165,
+      "Weak_SASR_Additive": 18.493250997006967
+    },
+    "uniform_10": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 17.871283344569708,
+      "SASR_Additive_Raw": 17.01192545146902,
+      "P1_LDPL_Isotropic_Residual": 8.366685323072003,
+      "P2_LDPL_SASR_Additive_Residual": 8.088383877563018,
+      "Weak_Isotropic": 18.849685257087888,
+      "Weak_SASR_Additive": 19.350334579263908
+    },
+    "uniform_5": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 15.382010166862456,
+      "SASR_Additive_Raw": 14.804359274459102,
+      "P1_LDPL_Isotropic_Residual": 7.767856039205058,
+      "P2_LDPL_SASR_Additive_Residual": 7.463917154526961,
+      "Weak_Isotropic": 16.838406124003825,
+      "Weak_SASR_Additive": 17.566735955633764
+    },
+    "uniform_2": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 15.118344346787554,
+      "SASR_Additive_Raw": 14.950738455922737,
+      "P1_LDPL_Isotropic_Residual": 7.615934746127385,
+      "P2_LDPL_SASR_Additive_Residual": 7.395357044109934,
+      "Weak_Isotropic": 19.950814636890048,
+      "Weak_SASR_Additive": 19.987934436848597
+    },
+    "uniform_1": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 14.874428595491842,
+      "SASR_Additive_Raw": 14.493054272149525,
+      "P1_LDPL_Isotropic_Residual": 7.98581207316837,
+      "P2_LDPL_SASR_Additive_Residual": 7.449108993605223,
+      "Weak_Isotropic": 16.695975095629606,
+      "Weak_SASR_Additive": 17.97637913123946
+    },
+    "clustered_10": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 68.48832505972544,
+      "SASR_Additive_Raw": 67.14567035551225,
+      "P1_LDPL_Isotropic_Residual": 10.958433490696498,
+      "P2_LDPL_SASR_Additive_Residual": 10.813221680056426,
+      "Weak_Isotropic": 79.98994114518881,
+      "Weak_SASR_Additive": 78.52253479832017
+    },
+    "clustered_5": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 71.57324880104066,
+      "SASR_Additive_Raw": 70.10093062424586,
+      "P1_LDPL_Isotropic_Residual": 11.02937208178721,
+      "P2_LDPL_SASR_Additive_Residual": 11.044364537659074,
+      "Weak_Isotropic": 84.54164167861491,
+      "Weak_SASR_Additive": 82.68772606279919
+    },
+    "clustered_2": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 77.49695143787777,
+      "SASR_Additive_Raw": 76.51626725814317,
+      "P1_LDPL_Isotropic_Residual": 11.243154074308238,
+      "P2_LDPL_SASR_Additive_Residual": 11.149258364793951,
+      "Weak_Isotropic": 95.29957149363993,
+      "Weak_SASR_Additive": 93.65262835316773
+    },
+    "clustered_1": {
+      "P0_LDPL": 11.401806953202566,
+      "Isotropic_Raw": 77.63537841571623,
+      "SASR_Additive_Raw": 77.01122340966592,
+      "P1_LDPL_Isotropic_Residual": 11.30356666239828,
+      "P2_LDPL_SASR_Additive_Residual": 11.286451810512323,
+      "Weak_Isotropic": 95.64644802707132,
+      "Weak_SASR_Additive": 94.75722351041176
+    }
+  },
+  "monte_carlo_30_runs": {
+    "mean_iso": 16.53260721830427,
+    "std_iso": 0.9544941802396605,
+    "mean_sasr_additive": 16.1606434585858,
+    "std_sasr_additive": 0.8183107047665192,
+    "pct_improvement": 2.2498796155191307,
+    "p_value": 2.470093356546543e-07
+  },
+  "cross_cell": {
+    "iso_rmse": 17.979937279692702,
+    "sasr_additive_rmse": 15.199527876819028,
+    "ldpl_sasr_additive_rmse": 7.559048844654002
+  }
+}

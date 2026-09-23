@@ -1,0 +1,56 @@
+{
+  "coordinate_scaling": {
+    "xEast_min": -1863.209284573706,
+    "xEast_max": 2426.189221536166,
+    "yNorth_min": -2017.6050633938487,
+    "yNorth_max": 2117.4240246722393
+  },
+  "matrix_diagnostics": {
+    "ratio_10": {
+      "N_tr": 500,
+      "max_abs_diff": 0.0,
+      "rel_frob_diff": 0.0,
+      "min_eig": -46.42438309298984,
+      "max_eig": 4778.290225258488,
+      "cond_num": 102.9263052497087,
+      "num_neg_eig": 11
+    },
+    "ratio_5": {
+      "N_tr": 500,
+      "max_abs_diff": 0.0,
+      "rel_frob_diff": 0.0,
+      "min_eig": -46.42438309298984,
+      "max_eig": 4778.290225258488,
+      "cond_num": 102.9263052497087,
+      "num_neg_eig": 11
+    },
+    "ratio_2": {
+      "N_tr": 500,
+      "max_abs_diff": 0.0,
+      "rel_frob_diff": 0.0,
+      "min_eig": -46.42438309298984,
+      "max_eig": 4778.290225258488,
+      "cond_num": 102.9263052497087,
+      "num_neg_eig": 11
+    },
+    "ratio_1": {
+      "N_tr": 500,
+      "max_abs_diff": 0.0,
+      "rel_frob_diff": 0.0,
+      "min_eig": -46.42438309298984,
+      "max_eig": 4778.290225258488,
+      "cond_num": 102.9263052497087,
+      "num_neg_eig": 11
+    }
+  },
+  "multi_cell_asymmetry": {
+    "asym_cross_pair_count": 83816,
+    "max_asym_distance_error": 24.207882109595626
+  },
+  "circular_wrap_test": {
+    "angle1": 359.0,
+    "angle2": 1.0,
+    "arithmetic_mean": 180.0,
+    "circular_mean": 0.0
+  }
+}
