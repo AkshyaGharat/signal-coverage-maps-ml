@@ -123,19 +123,23 @@ signal-coverage-maps/
 │   ├── dataset_exploration.md           # CIM-5G spatial characterization
 │   ├── anisotropic_reconstruction.md    # SASR kernel derivation
 │   ├── ml_integration_report.md         # Full ML pipeline architecture
-│   └── ...                              # Additional audits & reports
+│   └── ldpl_calibration_reconciliation.md
 ├── experiments/
 │   ├── 00_environment_test.m            # Toolbox and environment validation
 │   ├── 01_dataset_exploration.m         # Spatial coverage and characterization
 │   ├── 02_structure_analysis.m          # Empirical variograms and nonstationarity
 │   ├── 03_anisotropic_reconstruction.m  # SASR reconstruction benchmark
-│   ├── validate_p1_vs_p2.m              # 30-run paired Monte Carlo validation
 │   ├── 04_ml_residual.m                 # Zero-leakage OOF residual learning
 │   ├── 05_model_comparison.m            # 12-regime multi-protocol benchmark
 │   ├── 06_interactive_coverage_map.m    # 10,000-cell prediction map export
+│   ├── 07_audit_phase03.m              # Reconstruction audit diagnostics
+│   ├── 08_verify_covariance.m          # Additive covariance PSD verification
+│   ├── validate_p1_vs_p2.m              # 30-run paired Monte Carlo validation
 │   └── run_all.m                        # Master experiment pipeline
 ├── figures/                             # High-resolution publication figures
 │   ├── dataset/                         # Spatial data characterization plots
+│   ├── reconstruction/                  # Reconstruction comparison figures
+│   ├── structure/                       # Variogram and nonstationarity plots
 │   ├── ml/                              # Feature importances & scatter plots
 │   └── final/                           # Full-grid 5-mode prediction maps
 ├── models/

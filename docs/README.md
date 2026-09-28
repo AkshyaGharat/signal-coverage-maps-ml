@@ -19,18 +19,4 @@ Technical documentation for the **Physically Guided Sparse 5G RSRP Signal Covera
 | :--- | :--- |
 | [Anisotropic Reconstruction (SASR)](anisotropic_reconstruction.md) | Sector-Aligned Anisotropic Spatial Reconstruction kernel derivation and ablation |
 | [ML Integration Report](ml_integration_report.md) | Full ML pipeline architecture — file inventory, OOF engine, and hybrid predictor |
-| [ML Integration Audit](ml_integration_audit.md) | Audit trail for ML integration correctness and leakage-free validation |
-
-## Setup & Calibration
-
-| Document | Description |
-| :--- | :--- |
-| [Environment Setup](environment_setup.md) | MATLAB toolbox requirements and environment validation |
 | [LDPL Calibration Reconciliation](ldpl_calibration_reconciliation.md) | Log-Distance Path Loss calibration parameter derivation and reconciliation |
-
-## Repair & Audit Logs
-
-| Document | Description |
-| :--- | :--- |
-| [Phase 03 Audit](phase03_audit.md) | Reconstruction phase audit findings |
-| [Phase 03 Repair](phase03_repair.md) | Reconstruction phase repair actions |

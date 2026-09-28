@@ -57,4 +57,4 @@ In Mode D, withholding coordinates changes RMSE by only **0.04 dB** (5.07 dB →
 
 - [Methodology & Prediction Modes](methodology.md) — Full mathematical formulations
 - [ML Integration Report](ml_integration_report.md) — Complete pipeline details
-- [ML Integration Audit](ml_integration_audit.md) — Audit and validation logs
+
