@@ -240,6 +240,7 @@ For detailed technical documentation, see the [docs/](docs/) directory:
 
 ## Research Team & Citation
 
+- **Project Guide:** Dr. Sheetal Patil
 - **Team Members:** Akshya Gharat, Tanisha Chawande, Sejal Shahane, Armash Ansari
 - **Project:** MathWorks MATLAB-Simulink Challenge Project Hub — *Signal Coverage Maps Using Measurements and Machine Learning*
 - **Dataset Reference:** Tingting Xu et al., *"A Real-time 5G Macro-cells Signal Dataset for Signal Model Simulation and Prediction within Complex Terrain Areas"*, Chongqing University of Posts and Telecommunications (CQUPT).
