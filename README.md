@@ -1,6 +1,6 @@
 # Physically Guided Sparse 5G RSRP Signal Coverage Reconstruction and Residual Machine Learning
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2026a-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2022a%2B-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 [![Dataset](https://img.shields.io/badge/Dataset-CIM--5G-2ea44f?style=flat)](https://github.com/armash66/signal-coverage-maps)
 [![Status](https://img.shields.io/badge/Status-5--Mode%20Validated-brightgreen?style=flat)](#)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat)](LICENSE)
@@ -177,10 +177,14 @@ signal-coverage-maps/
 
 ### Quick Verification (< 60 seconds)
 
-A self-contained smoke-test verifies the environment, loads the sample dataset, and checks all pre-trained models:
-
+**Step 1 — Check toolboxes:**
 ```matlab
 cd('path/to/signal-coverage-maps');
+run('experiments/00_environment_test.m');
+```
+
+**Step 2 — Run smoke-test** (loads sample data, checks all pre-trained models):
+```matlab
 addpath(genpath('src'));
 run('tests/run_quick_demo.m');
 ```
@@ -240,6 +244,7 @@ For detailed technical documentation, see the [docs/](docs/) directory:
 
 ## Research Team & Citation
 
+- **Institution:** Vidyalankar Institute of Technology, Mumbai
 - **Project Guide:** Dr. Sheetal Patil
 - **Team Members:** Akshya Gharat, Tanisha Chawande, Sejal Shahane, Armash Ansari
 - **Project:** MathWorks MATLAB-Simulink Challenge Project Hub — *Signal Coverage Maps Using Measurements and Machine Learning*
