@@ -115,8 +115,9 @@ The project includes an interactive MATLAB App Designer dashboard (`src/visualiz
 ```text
 signal-coverage-maps/
 ├── data/
-│   └── raw/
-│       └── CIM-5G/                      # Raw measurement CSVs, base station data, fishnet
+│   ├── raw/
+│   │   └── CIM-5G/                      # Raw measurement CSVs, base station data, fishnet
+│   └── sample/                          # Minimal sample dataset for quick verification
 ├── docs/                                # Technical documentation (see docs/README.md)
 │   ├── methodology.md                   # Mathematical formulations & cross-validation
 │   ├── results.md                       # Benchmark results & research findings
@@ -158,6 +159,8 @@ signal-coverage-maps/
 │   └── visualization/
 │       └── coverage_dashboard.m         # Interactive App Designer dashboard
 ├── run_all.m                            # Top-level master entry point
+├── tests/
+│   └── run_quick_demo.m                 # Quick smoke-test (< 60 s)
 ├── LICENSE                              # MIT License
 └── README.md
 ```
@@ -172,13 +175,26 @@ signal-coverage-maps/
   - *Statistics and Machine Learning Toolbox* (`TreeBagger`, `cvpartition`)
   - *Mapping Toolbox* (`geoaxes`, `geoscatter`)
 
-### Quick Start
+### Quick Verification (< 60 seconds)
 
-**Run the full pipeline:**
+A self-contained smoke-test verifies the environment, loads the sample dataset, and checks all pre-trained models:
+
+```matlab
+cd('path/to/signal-coverage-maps');
+addpath(genpath('src'));
+run('tests/run_quick_demo.m');
+```
+
+Expected output: `STATUS : ALL CHECKS PASSED`
+
+### Full Pipeline
+
 ```matlab
 cd('path/to/signal-coverage-maps');
 run_all
 ```
+
+`run_all` is a single-click entry point that sequentially executes the 7-stage pipeline and launches the dashboard with pre-computed predictions. No code edits required.
 
 **Run individual experiment stages:**
 ```matlab
@@ -194,11 +210,17 @@ eval(fileread('experiments/05_model_comparison.m'));
 eval(fileread('experiments/06_interactive_coverage_map.m'));
 ```
 
-**Launch the interactive dashboard:**
+**Launch the interactive dashboard (pre-computed results only):**
 ```matlab
 addpath(genpath('src'));
 fig = coverage_dashboard('results/final/all_models_grid_predictions.csv');
 ```
+
+### Input Data
+
+The full CIM-5G dataset (≈ 17 MB) is included in `data/raw/CIM-5G/` — no external download required.
+
+A minimal sample (200 measurement rows + 100 fishnet cells + base station table) is available in `data/sample/` for the quick verification test. See [`data/sample/README.md`](data/sample/README.md) for details.
 
 ---
 
@@ -218,6 +240,9 @@ For detailed technical documentation, see the [docs/](docs/) directory:
 
 ## Research Team & Citation
 
-- **Team Members:** Akshya Gharat, Tanisha Chawande, Sejal Shahane, Armash Ansari  
+- **Team Members:** Akshya Gharat, Tanisha Chawande, Sejal Shahane, Armash Ansari
+- **Project:** MathWorks MATLAB-Simulink Challenge Project Hub — *Signal Coverage Maps Using Measurements and Machine Learning*
 - **Dataset Reference:** Tingting Xu et al., *"A Real-time 5G Macro-cells Signal Dataset for Signal Model Simulation and Prediction within Complex Terrain Areas"*, Chongqing University of Posts and Telecommunications (CQUPT).
 - **License:** MIT License.
+
+> For evaluation enquiries, contact via the MathWorks submission form on the project description page.
